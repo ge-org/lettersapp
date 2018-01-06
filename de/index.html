@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Letters ist eine App, die zufällige Buchstaben und Wörter anzeigt.">
+  <meta name="keywords" content="Buchstaben, Zufall, Generator, Symbol, Zeichen, Buchstabe, Stadt Land FLuss, Wörterbuch, Entscheidung">
+  <meta name="author" content="Georg Dresler">
+  <title>Letters - Zufällige Buchstaben App</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+
+      .container .jumbotron {
+        padding-top: 0;
+        border-radius: 0;
+        margin: 0;
+        background: #fff;
+      }
+
+      hr {
+        margin-top: 50px;
+      }
+  </style>
+
+  <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="/js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="row" itemscope itemtype="http://schema.org/Product">
+      <div class="col-md-5 col-md-offset-1">
+        <img itemprop="image" src="/img/hero.png" alt="" width="405" height="563" class="img-responsive">
+      </div>
+
+      <div class="col-md-6">
+        <div class="jumbotron">
+          <h1><span itemprop="name">Letters</span></h1>
+          <span itemprop="description">
+            <p>
+              Hast Du mal einen zufälligen Buchstaben gebraucht?<br>
+              Oder eine schnelle Ja oder Nein Entscheidung?
+            </p>
+            <p>
+              <mark style="padding:5px">Letters</mark> hilft Dir dabei.<br>
+            </p>
+            <p>
+              Wähle zufällige Zeichen oder Wörter aus eingebauten oder eigenen Wörterbüchern.<br>
+              Entweder unendlich viele oder jedes genau einmal.
+            </p>
+          </span>
+          <p>
+            Und das Ganze schaut auch noch super aus.<br>
+            <span itemprop="offers" itemscopoe itemtype="http://schema.org/Offer">
+              Und es ist <span itemprop="price">kostenlos</span> :-)
+            </span>
+          </p>
+          <br>
+          <p>
+            <a href="https://itunes.apple.com/de/app/letters-zufallige-buchstaben/id905720419" onclick="trackOutboundLink('https://itunes.apple.com/de/app/letters-zufallige-buchstaben/id905720419'); return false;"><img src="/img/download_de.png" alt="Laden im App Store" width="135" height="40"></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <footer>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-inline">
+            <li><a href="/">English</a></li>
+            <li>|</li>
+            <li><a href="/de/hilfe">Hilfe</a></li>
+            <li><a href="/de/datenschutz">Datenschutz</a></li>
+            <li><a href="/de/impressum">Impressum</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <p class="text-right">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.letters-app.de" data-text="Schau dir Letters im App Store an" data-lang="de" data-count="none" data-hashtags="lettersapp" data-dnt="true">Twittern</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53461552-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+
+  <script>
+  var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', 'appStore-de', {'hitCallback':
+     function () {
+     document.location = url;
+     }
+   });
+  }
+  </script>
+
+</body>
+</html>
